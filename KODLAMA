@@ -1,0 +1,94 @@
+m=input("adınızı yazınız : ")
+print("adınızın",isim,"olduğundan emin misiniz?")
+cevap=input("örn;evet eminim,hayır emin değilim: ")
+soy_isim=input("soy adınızı yazınız :")
+print("soy_isminizin",soy_isim,"olduğundan eminmisiniz?")
+cevap=input("örn;evet eminim,hayır emin değilim: ")
+yaş=input("yaşınızı giriniz: ")
+print("yaşınızın 18 yaşından büyük olduğuna emin misiniz ")
+cevap=input("örn;evet eminim,hayır emin değilim: ")
+hobi=input("hobileriniz nelerdir? ")
+
+
+
+
+
+
+
+print("""
+
+
+	1.ANKARA
+	2.İZMİR
+	3.ADANA
+	4.İSTANBUL
+	5.BAYBURT
+
+
+
+""")
+a=int(input("herhangi bir il seçiniz : "))
+
+if a == 1:
+	print("Ankara'yayı seviyormusun ?                      ")
+elif a==2:
+	print("İzmir'in neyini seviyorsunuz?                   ")
+elif a==3:
+	print("Adana'yı sıcak  buluyormusunuz?                 ")
+elif a==4:
+	print("istanbul'u kalabalık buluyormusunuz?            ")
+elif a==5:
+	print("bayburt hangi bölgededir?")
+else:
+	print("ulan altı üstü bi seçim yapacaksın niye bukadar ince eleyip sık sokuyorsun:)")
+
+	
+  
+  
+  
+  
+  
+  
+  
+  sayı_1=float(input("sayıyı giriniz        : "))
+ifade=       input("yapılacak işlem       :")
+sayı_2=float(input("ikinci sayıyı giriniz : "))
+
+if ifade =="+":
+	print("sonuç       :",sayı_1+sayı_2)
+elif ifade =="-":
+	print("sonuç       :",sayı_1-sayı_2)
+elif ifade =="*":
+	print("sonuç       :",sayı_1*sayı_2)
+elif ifade =="/":
+	print("sonuç       :",sayı_1/sayı_2)
+elif ifade =="**":
+	print("sonuç       :",sayı_1**sayı_2)
+else:
+	print("ulan gerizekalı altı üstü bi seçim yapacaksın niye bukadar ince eleyip sık sokuyorsun:))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  sayı_1=float(input("ilk sayıyı giriniz        :   "))
+ifade=       input("yapılacak işlem nedir?    :   ")
+sayı_2=float(input("ikinci sayıyı giriniz     :   "))
+
+if ifade =="+":
+	print("sonuç         :",sayı_1+sayı_2)
+elif ifade =="-":
+	print("sonuç         :",sayı_1-sayı_2)
+elif ifade =="*":
+	print("sonuç         :",sayı_1*sayı_2)
+elif ifade =="/":
+	print("sonuç         :",sayı_1/sayı_2)
+elif ifade =="**":
+	print("sonuç         :",sayı_1**sayı_2)
+else:
+	print("ERROR")
+
